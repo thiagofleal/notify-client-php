@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8a7ced3a24991ce8d4ce5b6141a7489f",
+    "packages": [
+        {
+            "name": "thiagofleal/tonight-php",
+            "version": "dev-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagofleal/Tonight-PHP.git",
+                "reference": "6cd73bf9b47b136889639c00e70818d87bb948ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagofleal/Tonight-PHP/zipball/6cd73bf9b47b136889639c00e70818d87bb948ca",
+                "reference": "6cd73bf9b47b136889639c00e70818d87bb948ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tonight\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Thiago Fernandes Leal",
+                    "email": "contato@thiagofleal.com.br"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/thiagofleal/Tonight-PHP/issues",
+                "source": "https://github.com/thiagofleal/Tonight-PHP/tree/beta"
+            },
+            "time": "2022-05-17T01:09:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thiagofleal/tonight-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

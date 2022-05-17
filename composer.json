@@ -1,0 +1,19 @@
+{
+    "name": "thiago/notify-client-php",
+    "description": "PHP client to notifications API",
+    "type": "library",
+    "require": {
+        "thiagofleal/tonight-php": "dev-beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thiago\\NotifyClientPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Fernandes Leal",
+            "email": "thiagofernandesleal@yahoo.com.br"
+        }
+    ]
+}
