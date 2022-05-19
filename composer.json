@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Thiago\\NotifyClientPhp\\": "src/"
+            "NotifyClient\\": "src/"
         }
     },
     "authors": [
