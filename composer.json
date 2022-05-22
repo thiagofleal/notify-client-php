@@ -1,5 +1,5 @@
 {
-    "name": "thiago/notify-client-php",
+    "name": "thiagofleal/notify-client-php",
     "description": "PHP client to notifications API",
     "type": "library",
     "require": {
