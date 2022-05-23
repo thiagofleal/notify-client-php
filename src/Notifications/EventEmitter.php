@@ -10,9 +10,9 @@ class EventEmitter
     private $client;
     private $query;
 
-    public function __construct($url, $key) {
+    public function __construct($host, $id, $key) {
         $this->client = new Client(Client::JSON);
-        $this->url = $url;
+        $this->url = $host."/".$id."/emit";
         $this->client->setHeader("Authorization", $key);
         $this->query = array();
     }
