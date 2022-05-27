@@ -2,9 +2,6 @@
     "name": "thiagofleal/notify-client-php",
     "description": "PHP client to notifications API",
     "type": "library",
-    "require": {
-        "thiagofleal/tonight-php": "dev-beta"
-    },
     "autoload": {
         "psr-4": {
             "NotifyClient\\": "src/"

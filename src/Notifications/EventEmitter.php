@@ -2,8 +2,6 @@
 
 namespace NotifyClient\Notifications;
 
-use Tonight\Tools\Client;
-
 class EventEmitter
 {
     private $url;
@@ -11,7 +9,7 @@ class EventEmitter
     private $query;
 
     public function __construct($host, $id, $key) {
-        $this->client = new Client(Client::JSON);
+        $this->client = new Client();
         $this->url = $host."/".$id."/emit";
         $this->client->setHeader("Authorization", $key);
         $this->query = array();
